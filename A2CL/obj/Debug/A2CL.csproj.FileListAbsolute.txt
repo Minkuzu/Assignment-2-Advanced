@@ -1,0 +1,6 @@
+E:\Visual Studio IDE\Reposite\A2CL\bin\Debug\A2CL.dll
+E:\Visual Studio IDE\Reposite\A2CL\bin\Debug\A2CL.pdb
+E:\Visual Studio IDE\Reposite\A2CL\obj\Debug\A2CL.csproj.AssemblyReference.cache
+E:\Visual Studio IDE\Reposite\A2CL\obj\Debug\A2CL.csproj.CoreCompileInputs.cache
+E:\Visual Studio IDE\Reposite\A2CL\obj\Debug\A2CL.dll
+E:\Visual Studio IDE\Reposite\A2CL\obj\Debug\A2CL.pdb

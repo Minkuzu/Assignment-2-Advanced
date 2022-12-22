@@ -1,0 +1,11 @@
+E:\Visual Studio IDE\Reposite\A2CA\bin\Debug\A2CA.exe.config
+E:\Visual Studio IDE\Reposite\A2CA\bin\Debug\A2CA.exe
+E:\Visual Studio IDE\Reposite\A2CA\bin\Debug\A2CA.pdb
+E:\Visual Studio IDE\Reposite\A2CA\bin\Debug\A2CL.dll
+E:\Visual Studio IDE\Reposite\A2CA\bin\Debug\A2CL.pdb
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.csproj.AssemblyReference.cache
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.csproj.CoreCompileInputs.cache
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.csproj.CopyComplete
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.exe
+E:\Visual Studio IDE\Reposite\A2CA\obj\Debug\A2CA.pdb
