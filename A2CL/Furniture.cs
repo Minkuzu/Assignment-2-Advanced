@@ -29,5 +29,9 @@ namespace A2CL
         {
             return wrappee.Suggestion();
         }
+        public override int getQty()
+        {
+            return wrappee.getQty();
+        }
     }
 }

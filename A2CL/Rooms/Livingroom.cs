@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace A2CL.Rooms
 {
     public class Livingroom : Room
     {
+        int limit;
         public Livingroom()
         {
             Name = "Livingroom";
@@ -46,6 +48,10 @@ namespace A2CL.Rooms
         {
             return "SYSTEM SUGGESTION - Livingroom: 4 Doors, 2 Tables, 8 Chairs, 0 Bathtub, 2 Fans\n" +
                 "Do you want to use this suggestion? (y/n)";
+        }
+        public override int getQty()
+        {
+            return Qty;
         }
     }
 }

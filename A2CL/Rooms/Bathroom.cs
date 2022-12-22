@@ -14,6 +14,7 @@ namespace A2CL.Rooms
             Color = "";
             Style = "";
             Area = 0.00;
+            Qty = 0;
         }
         public Bathroom(string color, string style, double area)
         {
@@ -21,6 +22,7 @@ namespace A2CL.Rooms
             Color = color;
             Style = style;
             Area = area;
+            Qty = 0;
         }
         public string getColor()
         {
@@ -46,6 +48,10 @@ namespace A2CL.Rooms
         {
             return "SYSTEM SUGGESTION - Bathroom: 1 Door, 0 Table, 0 Chairs, 1 Bathtub, 0 Fan\n" +
                 "Do you want to use this suggestion? (y/n)";
+        }
+        public override int getQty()
+        {
+            return Qty;
         }
     }
 }

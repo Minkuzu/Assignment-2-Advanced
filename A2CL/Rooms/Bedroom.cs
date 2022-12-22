@@ -9,12 +9,14 @@ namespace A2CL.Rooms
 {
     public class Bedroom : Room
     {
+        int limit;
         public Bedroom()
         {
             Name = "Bedroom";
             Color = "";
             Style = "";
             Area = 0.00;
+            Qty = 0;
         }
         public Bedroom(string color, string style, double area)
         {
@@ -22,6 +24,7 @@ namespace A2CL.Rooms
             Color = color;
             Style = style;
             Area = area;
+            Qty = 0;
         }
         public string getColor()
         {
@@ -47,6 +50,10 @@ namespace A2CL.Rooms
         {
             return "SYSTEM SUGGESTION - Bedroom: 2 Doors, 1 Table, 2 Chairs, 0 Bathtub, 1 Fan\n" +
                 "Do you want to use this suggestion? (y/n)";
+        }
+        public override int getQty()
+        {
+            return Qty;
         }
     }
 }

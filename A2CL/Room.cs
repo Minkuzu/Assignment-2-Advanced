@@ -12,6 +12,7 @@ namespace A2CL
         public string Color { get; set; }
         public string Style { get; set; }
         public double Area { get; set; }
+        public int Qty { get; set; }
         public Room()
         {
 
@@ -22,10 +23,18 @@ namespace A2CL
             Style = style;
             Area = area;
         }
+        public Room(string color, string style, double area, int qty)
+        {
+            Color = color;
+            Style = style;
+            Area = area;
+            Qty = 0;
+        }
 
         public abstract string Suggestion();
         public abstract string Visualize();
         public abstract double TotalCost();
+        public abstract int getQty();
 
 
     }
